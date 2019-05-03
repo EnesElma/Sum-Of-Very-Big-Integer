@@ -89,9 +89,11 @@ int main(){
         toplamDizi.push_back(elde);
     }
 
+    cout<<"Toplam: \n";
     for(int i=maxBoyut;i>0;i--){    //vektöre tersten ekleme yaptığımız için eğer vektörü yeniden ters çevirip yazdırırsak işlem sonucunu bulmuş oluruz
         cout<<toplamDizi[i-1];
     }
-
+    
+    cout<<endl;
     return 0;
 }
